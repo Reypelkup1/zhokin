@@ -1,19 +1,21 @@
-﻿// zhokin.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
+// zhokin.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
     int a, b;
-    std::cout << "Enter a";
-    std::cin >> a;
-    std::cout << "Enter b";
-    std::cin >> b;
-    int ab = a + b;
+    cout << "Enter a";
+    cin >> a;
+    cout << "Enter b";
+    cin >> b;
+    int sum = a + b;
+    cout << "sum=" << sum << endl;
     return 0;
 
-`
+}
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
 // Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
 
